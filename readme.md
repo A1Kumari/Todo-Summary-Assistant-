@@ -6,6 +6,11 @@ A full-stack application to manage your personal to-do list, generate AI-powered
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/Supabase-PostgreSQL-9cf)](https://supabase.com/)
 
+
+https://github.com/user-attachments/assets/6458b731-67c7-4103-af03-4a743e14f1cd
+
+
+
 ## Features 🚀
 
 - ✅ Add, edit, delete, and mark to-do tasks as complete
