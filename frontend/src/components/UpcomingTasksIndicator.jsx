@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { useContext } from 'react';
+import TaskContext from '../context/TaskContext';
 
-const UpcomingTasksIndicator = ({ tasks = [] }) => {
+const UpcomingTasksIndicator = () => {
+   const { tasks } = useContext(TaskContext);
   const [taskCategories, setTaskCategories] = useState({
     today: [],
     upcoming: [],

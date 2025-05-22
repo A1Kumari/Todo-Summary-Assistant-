@@ -25,6 +25,9 @@ function Register() {
         }
     }
     return (
+        <section className="login-container min-h-screen flex items-center justify-center bg-blue-50">
+    <div className="w-full max-w-6xl px-6 py-12 bg-white rounded-lg shadow-lg flex items-center justify-center">
+      
         <div>
             {userToken && <Navigate to="/" />}
             <section className="register-container">
@@ -95,6 +98,8 @@ function Register() {
             </section>
 
         </div>
+        </div>
+        </section>
     );
 }
 

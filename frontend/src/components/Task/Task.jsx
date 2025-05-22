@@ -103,7 +103,7 @@ function Task({ task, id }) {
             {/* Main Task Card */}
             <div 
                 className={`rounded-lg shadow-md transition-all duration-300 ${
-                    task.completed ? 'bg-gray-100' : 'bg-white'
+                    task.completed ? 'bg-green-100' : 'bg-red-100'
                 }`}
                 onClick={toggleExpand}
             >

@@ -4,6 +4,7 @@ import CreateTask from './createTask/CreateTask';
 import { Outlet } from 'react-router-dom';
 import TaskPriorityDonutChart from './DonutChart';
 import UpcomingTasksIndicator from './UpcomingTasksIndicator'; // New component for upcoming tasks
+import TaskPriorityPage from './TaskAssistant';
 
 function Layout() {
     return (
@@ -45,7 +46,13 @@ function Layout() {
                 <div className="bg-white rounded-lg shadow p-4">
                             <h2 className="text-lg font-semibold mb-4">Task Timeline</h2>
                             <UpcomingTasksIndicator />
+                           
                 </div>
+                <div className="bg-white rounded-lg shadow p-4">
+                            
+                           
+                </div>
+                 <TaskPriorityPage/>
             </div>
         </div>
     );

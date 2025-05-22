@@ -28,8 +28,8 @@ function Login() {
         <div>
   {userToken && <Navigate to="/" />}
 
-  <section className="login-container min-h-screen flex items-center justify-center bg-gray-50">
-    <div className="flex flex-wrap items-center justify-center w-full px-6 py-12 max-w-6xl bg-white rounded-lg shadow-lg">
+  <section className="login-container min-h-screen flex items-center justify-center bg-blue-50">
+    <div className="w-full max-w-6xl px-6 py-12 bg-white rounded-lg shadow-lg flex items-center justify-center">
       
       {/* Left Image */}
       <div className="hidden md:block md:w-5/12 lg:w-4/12">
